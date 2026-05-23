@@ -1,7 +1,6 @@
 import java.util.Stack;
-
 public class validparentheses {
-    @SuppressWarnings("unused")
+  @SuppressWarnings("unused")
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
